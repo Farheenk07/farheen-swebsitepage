@@ -1,0 +1,298 @@
+ header{
+    height:50px;
+  /*  border:5px solid #010102;*/
+    background-color: #e0517e;
+
+}
+#social{
+
+    float: left;
+    margin-top: 0.5%;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+.social-text{
+    float: inline-end;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 0.5%;
+    color: white;
+}
+
+.socialIcons{
+    height:30px;
+    padding-left: 18px;
+}
+
+#menu{
+    height:80px;
+ /*  border:5px solid red;*/
+   background-color: #ecc8d4;
+}
+
+
+#brand-name{
+          font-size:40px;
+          font-weight: bold;
+          font-style: italic;
+          font-family: 'Lucida Sans';
+          color: palevioletred;
+          padding-left: 10px;
+          padding-top: 5px;
+        
+}
+
+ nav li a{
+    float: right;
+    font-size: 20px;
+    padding: 0px 30px;
+    color:rgb(15, 17, 19);
+    text-decoration: none;
+    margin-left: 5%;
+}
+nav {
+    size:50px;
+   }
+   ul{
+    float:right;
+    list-style-type: none;
+    margin-right: 2%;
+
+}
+li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.btn{
+    margin-right: 10%;
+    margin-top: 1.5%;
+}
+.corner-icons{
+    font-size: 30px;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    
+}
+   .search-container{
+    height:50px;
+    width:80px;
+    border-radius:30px ;
+    display: flex;
+    align-items: center;
+    background-color:white ;
+    padding:20px;
+
+   }
+   #poster{
+    height:450px;
+ /*   border:2px solid black;*/
+    background-image:url(images/flower-8429956_1920.jpg);
+    background-repeat: no-repeat;
+   background-size:100% 450px ;
+   background-position: left;
+   }
+    #heading{
+    font-size: 70px;
+    color:white;
+    font-weight: bold;
+    margin-left: 12%;
+    margin-top: 14%;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+#Subheading{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 28%;
+    line-height: 10;
+    font-weight: bold;
+    text-shadow: #5a1bc0;
+
+}
+
+
+   
+#devCarousel{
+    height:500px;
+    width: 100%;
+   /* border:5px solid green;*/
+    
+}
+.sliderImage{
+    height: 500px !important;
+    width: 100%;
+}
+
+#options{
+      height:600px;
+   /* border:5px solid orangered;*/
+    margin-left:10%;
+    margin-right: 10%;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tile-box{
+    height:180px ;
+    width:180px;
+ /*  border: 2px solid purple;*/
+    margin-top: 5%;
+    margin-left: 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    height:180px;
+    width: 180px;
+     margin: 0%;
+     display: flex;
+     flex-wrap: wrap;
+     position: relative;
+}
+
+.container>img{
+    height:180px;
+    width: 180px;
+    object-fit: cover;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 20px;
+}
+/*brands section*/
+/*#brands{
+    height:200px;
+    border:5px solid yellow ;
+}*/
+.image-container{
+    position: relative;
+    background-color:rgb(236, 223, 225) ;
+}
+.image-container>img{
+    height: 250px;
+    width:250px;
+    margin-left: 0.5%;
+}
+
+
+.main-box{
+   /* border:2px solid orange;*/
+    background-color: #FFF5EE;
+}
+.product-box{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width:100%;
+    margin:30px auto;
+   /* border: 2px solid purple;*/
+    
+}
+.product-container{
+    height:100px;
+    width:100px;
+  /*  border: 2px solid black;*/
+     margin-left: 2%;
+
+    
+}
+.product-container>img{
+    height:100%;
+    width:100%;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+video{
+    height:500px;
+    width: 100%;
+
+}
+
+
+.about-text{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+/*footer section*/
+footer{
+  /*  height:80px;*/
+ /*   border: 5px solid blue;*/
+    background-color:#e0517e;
+    text-align: center;
+    color:white;
+
+}
+.footText{
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+.noBorder{
+    border:none;
+}
+ul{
+    list-style-type: none;
+
+}
+.footlist{
+    float:left;
+    margin-left: 20%;
+}
+@media screen and(max-width:1400px) {
+    body{
+        background-color: aqua;
+    }
+
+}
+@media screen and(max-width:1025px){
+    body{
+        background-color: rgb(197, 214, 122);
+    }
+}
+@media screen and(max-width:900px){
+    body{
+        background-color: rgb(190, 130, 185);
+    }
+}
+@media screen and(max-width:750px){
+    body{
+        background-color: rgb(248, 142, 159);
+    }
+}
+@media screen and(max-width:600px){
+    body{
+        background-color: rgb(137, 136, 187);
+    }
+}
+
+@media screen and(max-width:450px){
+    body{
+        background-color: rgb(16, 240, 83);
+    }
+}
